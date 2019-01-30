@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_purple"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/icono1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/cronometro" />
+
+            <TextView
+                android:id="@+id/texto_icono1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toRightOf="@+id/icono1"
+                android:text="Training Plans"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+
+            <ImageView
+                android:id="@+id/icono2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="121dp"
+                android:src="@drawable/report" />
+
+            <TextView
+                android:id="@+id/texto_icono2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toRightOf="@+id/icono2"
+                android:text="Report"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+
+            <ImageView
+                android:id="@+id/icono3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="209dp"
+                android:src="@drawable/recordar" />
+
+            <TextView
+                android:id="@+id/texto_icono3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="219dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toRightOf="@+id/icono3"
+                android:text="Reminder"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+
+            <ImageView
+                android:id="@+id/icono4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="309dp"
+                android:src="@drawable/engranaje" />
+
+            <TextView
+                android:id="@+id/texto_icono4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="318dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toRightOf="@+id/icono4"
+                android:text="Setting"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+
+            <ImageView
+                android:id="@+id/icono5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="407dp"
+                android:src="@drawable/apagado" />
+
+            <TextView
+                android:id="@+id/texto_icono5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="415dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toRightOf="@+id/icono5"
+                android:text="Restart progress"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
